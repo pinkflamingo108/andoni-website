@@ -1,0 +1,93 @@
+
+
+
+#mainContainer{
+    background-color: #074863;
+    min-height: 41vh;
+    overflow: auto;
+}
+
+.textContainer{
+
+padding: 3rem 0rem 0rem 7rem;
+}
+
+.rText{
+    color:  #64ffda;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    padding: 1.1rem 0 0 0;
+}
+
+//My name
+.name{
+    font-family: 'Merriweather', serif;
+color:#ccd6f6;
+font-size: 3rem
+}
+
+.name-text{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    // color:  #0c7caa;
+    color:#ccd6f6;
+    opacity: .3;
+}
+
+.intro-text{
+    color:#ccd6f6;
+    padding: 1.1rem 0 0 0;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+//Media Queries
+
+//Tablets
+@media only screen and (max-width: 768px) {
+    .textContainer{
+      padding: 3rem 1rem 1rem 1rem;
+        
+        }
+
+        .name{
+       
+        font-size: 2.5rem
+        }
+
+        .name-text{
+            font-size: 2.2rem;
+
+        }
+        
+
+}
+
+//Small devices
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .name{
+        font-family: 'Merriweather', serif;
+    color:#ccd6f6;
+    font-size: 1.8rem
+    }
+    
+    .name-text{
+        font-size: 1.5rem;
+ 
+    }
+
+
+
+
+
+
+
+
+
+
+}

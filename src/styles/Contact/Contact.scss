@@ -1,0 +1,109 @@
+#contact-container{
+    background-color: #042533;
+    min-height: 25vh;
+    display: flex;
+   
+    flex-direction: column;
+
+    .text-container{
+padding: 2rem 9rem 0 9rem;
+
+    }
+
+
+    .fresh-green{
+       color: #64ffda;
+       font-size: 1.5rem;
+       display: flex;
+       justify-content: center;
+       padding-bottom: .5rem;
+    }
+
+.contact-title{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 2rem;
+font-weight: bolder;
+
+}
+
+
+.contact-text{
+color:#ccd6f6;
+padding-top: 1rem;
+margin-bottom: 1rem;
+}
+
+
+}
+
+.button-container{
+display: flex;
+justify-content: center;
+
+.main-button{
+border-color:#64ffda;
+background-color:#042533;
+color: #64ffda;
+font-size: 1.1rem;
+padding: 1rem;
+border-radius: 12px;
+margin-bottom: 1rem;
+
+
+}
+
+.main-button:hover{
+    cursor: pointer;
+    opacity: .6;
+    }
+}
+
+
+.credit-container{
+
+min-height: 8vh;
+
+ display: flex;  
+justify-content: center;
+color: #ccd6f6;
+background-color: #042533;
+align-self: flex-end;
+align-items: flex-end;
+.design-credit{
+padding-bottom: .4rem;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+ #contact-container{
+
+    min-height: 10vh;
+    .text-container{
+        padding: 0;
+        
+            }
+        
+
+.contact-text{
+padding:1rem;
+margin:0;
+
+}
+
+
+ }
+
+
+    
+
+    
+  }

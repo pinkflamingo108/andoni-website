@@ -1,0 +1,88 @@
+#about-container{
+    background-color: #042533;
+    min-height: 55vh;
+display: flex;
+}
+
+
+.about-text{
+
+padding: 2rem 1rem 0 10rem;
+
+
+    .number-color{
+
+        color: #64ffda;
+        
+        }
+        
+        .about-title{
+        
+        color:white;
+        
+        
+        }
+        .about-paragraph{
+
+            color: #ccd6f6;
+            padding-top: 1rem;
+            width: 50vw;
+        }
+
+
+}
+
+
+//Andoni Romano IMG
+
+.andoni-img-container{
+display: flex;
+align-items: center;
+}
+
+.andoni-img{
+opacity: .7;
+height: 50vh;
+}
+
+
+
+// About Media Queries
+
+@media only screen and (max-width: 768px) {
+
+    #about-container{
+ flex-direction: column;
+    }
+
+
+    .about-text{
+
+        padding: 1rem;
+        
+        
+        .about-paragraph{
+
+            color: #ccd6f6;
+            padding-top: 1rem;
+            width: 100%
+        }
+        
+        
+        }
+
+        .andoni-img-container{
+            display: flex;
+            justify-content: center;
+            }
+
+
+
+        .andoni-img{
+          padding: 1rem;
+          height: 45vh;
+       
+            }
+            
+    
+}

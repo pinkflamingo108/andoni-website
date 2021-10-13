@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navContainer{
+
+background-color: #042533;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.nameContainer{
+display: flex;
+align-items: center;
+padding: 1rem;
+.name{
+    list-style: none;
+    color: #64ffda;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem
+}
+
+}
+
+.navList{
+list-style: none;
+display: flex;
+align-items: center;
+
+li{
+    padding: 1rem;
+    a{
+        text-decoration: none;
+        color: #ccd6f6;
+    }
+}
+
+.listNum{
+color:#64ffda;
+
+}
+
+}
+
+
+
+
+//Media Queries nav bar
+
+//Mobile Phones 
+
+@media only screen and (max-width: 450px) {
+
+    .navList{
+    
+        
+        li{
+            padding: .5rem;
+     
+        }
+        
+  
+        
+        }
+        
+   
+       
+     }
